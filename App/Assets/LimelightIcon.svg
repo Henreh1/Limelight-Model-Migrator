@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="256"
+     height="256"
+     viewBox="0 0 256 256">
+  <circle cx="128"
+          cy="128"
+          r="124"
+          fill="none"
+          stroke="#35E7FF"
+          stroke-width="7"/>
+  <circle cx="128"
+          cy="128"
+          r="96"
+          fill="none"
+          stroke="#FF3CAC"
+          stroke-width="9"/>
+  <text x="128"
+        y="166"
+        fill="#F7F5FF"
+        font-family="Bahnschrift, Segoe UI, sans-serif"
+        font-size="124"
+        font-style="italic"
+        font-weight="900"
+        text-anchor="middle">L</text>
+</svg>

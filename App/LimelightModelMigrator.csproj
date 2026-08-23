@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>LimelightModelMigrator</AssemblyName>
+    <RootNamespace>LimelightModelMigrator</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\Limelight.ico</ApplicationIcon>
+    <Version>0.1.0</Version>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <Product>Limelight Model Migrator</Product>
+    <Description>Updates older Dead as Disco model replacement mods for the current mesh layout.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Limelight.ico" />
+    <Resource Include="Assets\LimelightIcon.png" />
+    <Resource Include="Assets\LimelightIcon.svg" />
+    <Resource Include="Assets\LimelightFamily.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="LimelightModelMigrator.Tests" />
+  </ItemGroup>
+</Project>
